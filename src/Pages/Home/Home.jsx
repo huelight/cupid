@@ -24,43 +24,45 @@ const Home = () => {
         <Background images={images}>
         <div className='cupid__landing'>
           <div className='cupid__content'>
-          <h1>Hey Sugar 💕...</h1>
+          <h1>My Queen 👸🏽❤️</h1>
 
           <hr></hr>
-          <p>My dearest Natalie,</p>
+          <p>Happy Valentine's Day, my love:</p>
 
           <p>
-            As I sit down to write this message, I can't help but smile at the memories of the past year. It's been a year since we started this journey of love and happiness together, and I couldn't be more grateful for having you by my side.
-          </p>
+              I am writing this letter to let you know just how much I love and appreciate you. From the moment I met you, I knew that you were someone special. Your beautiful smile, your kind heart, and your amazing personality all drew me to you, and I feel so lucky to have you in my life, I can remember when we started it’s all fresh like we started yesterday
+            </p>
 
           <p> 
-          You have brought so much joy, laughter and love into my life, and I am blessed to have you as my partner in every aspect. Your kindness, understanding, and unwavering support have been a constant source of comfort and inspiration to me.?
+              Every moment I spend with you is a treasure, and I cherish every laugh, every conversation, and every shared experience. You make my life better in so many ways, and I am constantly amazed by your strength, your intelligence, and your beauty.
             </p>
             
             <p> 
-              Today, on this special day of Valentine's and our first anniversary, I want you to know that my love for you only grows stronger each day. I promise to always be there for you, to support you, and to cherish you
-               </p>
+              I am filled with gratitude for all the ways you have enriched my life. You inspire me to be a better person every day, and I am so grateful for your love and support, even though sometimes you get on my nerve I have no other choice than to accept it , because I really value you 
+            </p>
             <p> 
-           Happy Valentine's Day, my love. Happy 1st anniversary. Here's to many more years of love, laughter, and happiness together.
+              I know that we will face challenges and obstacles in the years ahead, but I am confident that we can overcome anything as long as we face it together. I promise to always be there for you, to support you, and to love you with all my heart.
+            </p>
+            <p>
+              Thank you for being my partner, my confidante, and my best friend. I love you more than words could ever express.
             </p>
           
           <p>
-          Yours always,
+          Forever yours,
           <br></br>
-              Daniel</p>
+              Your baby boy ❤️❤️</p>
             
 
           <button onClick={() => setShowPopup1(!showPopup1)}>I'm Always Yours</button>
           {showPopup1 && (
             <div className="pop-up-background">
         <div className="popup-container">
-          <h3>You own my Heart Mi Amor</h3>
-          <p>Infinite love, a feeling so <strong>true,</strong><br></br>
-            In my heart, my love, I'll always cherish <strong> you.</strong><br></br>
-            Forever yours, till the end of <strong>time,</strong><br></br>
-            You're the beat of my heart, my love <strong>divine.</strong>
+          <h3>I love you princess</h3>
+                  <p>
+                    My love for you burns bright<br></br>
+                    As constant as day and night.
           </p>
-                  <p>...Daniel</p>
+                  <p>...Emmanuel</p>
                   <div>
                     <h6>This song expresses my emotions; please listen to it.</h6>
                     <AudioPlayer />
@@ -76,7 +78,7 @@ const Home = () => {
             <div className="pop-up-background">
         <div className="popup-container">
           <h3>🤔🤔👀!!!</h3>
-          <p>Shey you dey whine me? Close it and go and click on "I'm always Yours"</p>
+          <p>I'm sorry but this is not an option</p>
           <button onClick={() => setShowPopup2(!showPopup2)}>Close</button>
         </div>
         </div>
