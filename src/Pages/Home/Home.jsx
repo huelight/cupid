@@ -24,33 +24,30 @@ const Home = () => {
         <Background images={images}>
         <div className='cupid__landing'>
           <div className='cupid__content'>
-          <h1>My Queen 👸🏽❤️</h1>
+          <h1>My Princess 👸🏽❤️</h1>
 
           <hr></hr>
           <p>Happy Valentine's Day, my love:</p>
 
           <p>
-              I am writing this letter to let you know just how much I love and appreciate you. From the moment I met you, I knew that you were someone special. Your beautiful smile, your kind heart, and your amazing personality all drew me to you, and I feel so lucky to have you in my life, I can remember when we started it’s all fresh like we started yesterday
-            </p>
+             Although distance separates us, my love for you grows stronger each day.  </p>
 
           <p> 
-              Every moment I spend with you is a treasure, and I cherish every laugh, every conversation, and every shared experience. You make my life better in so many ways, and I am constantly amazed by your strength, your intelligence, and your beauty.
+              Your warmth and kindness shines through even the miles between us. I cherish the memories we have made and look forward to creating more in the future.
             </p>
             
             <p> 
-              I am filled with gratitude for all the ways you have enriched my life. You inspire me to be a better person every day, and I am so grateful for your love and support, even though sometimes you get on my nerve I have no other choice than to accept it , because I really value you 
+              You hold a special place in my heart and I can't wait to hold you in my arms.
             </p>
+
             <p> 
-              I know that we will face challenges and obstacles in the years ahead, but I am confident that we can overcome anything as long as we face it together. I promise to always be there for you, to support you, and to love you with all my heart.
-            </p>
-            <p>
-              Thank you for being my partner, my confidante, and my best friend. I love you more than words could ever express.
+              Sending you all my love, hugs and kisses from afar. 
             </p>
           
           <p>
-          Forever yours,
+          You are always in my thoughts.
           <br></br>
-              Your baby boy ❤️❤️</p>
+              Daniel❤️❤️</p>
             
 
           <button onClick={() => setShowPopup1(!showPopup1)}>I'm Always Yours</button>
@@ -59,10 +56,15 @@ const Home = () => {
         <div className="popup-container">
           <h3>I love you princess</h3>
                   <p>
-                    My love for you burns bright<br></br>
-                    As constant as day and night.
+                    With every sunrise, my love for you grows,<br />
+                    Like the gentle morning dew, it softly flows.<br />
+                    You fill my days with joy, my nights with peace,<br />
+                    I thank the stars above, for this love's release. <br />
+                    Without you, my life was just a lonely tune, <br />
+                    But now it's a beautiful melody, all because of you, my moon.<br />
+
           </p>
-                  <p>...Emmanuel</p>
+                  <p>...Daniel</p>
                   <div>
                     <h6>This song expresses my emotions; please listen to it.</h6>
                     <AudioPlayer />
