@@ -24,49 +24,48 @@ const Home = () => {
         <Background images={images}>
         <div className='cupid__landing'>
           <div className='cupid__content'>
-          <h1>My Princess 👸🏽❤️</h1>
+          <h1>Hey Cutie 👸🏽</h1>
 
           <hr></hr>
-          <p>Happy Valentine's Day, my love:</p>
+          <p>Happy Valentine's Day,</p>
 
           <p>
-             Although distance separates us, my love for you grows stronger each day.  </p>
+              I just wanted to let you know how special you are to me and how grateful I am for your friendship.
+            </p>
 
           <p> 
-              Your warmth and kindness shines through even the miles between us. I cherish the memories we have made and look forward to creating more in the future.
+              Your kindness and warmth always brighten my day and bring a smile to my face. You are a true gem and I feel lucky to have you in my life.
             </p>
             
             <p> 
-              You hold a special place in my heart and I can't wait to hold you in my arms.
+              I hope this Valentine's Day is as wonderful as you are and that it brings you all the love and happiness you deserve.
             </p>
 
             <p> 
-              Sending you all my love, hugs and kisses from afar. 
+              Wishing you a day filled with joy and love, princess. 
             </p>
           
           <p>
           You are always in my thoughts.
           <br></br>
-              Daniel❤️❤️</p>
+              Daniel❤️</p>
             
 
-          <button onClick={() => setShowPopup1(!showPopup1)}>I'm Always Yours</button>
+          <button onClick={() => setShowPopup1(!showPopup1)}>Yea, I am your friend</button>
           {showPopup1 && (
             <div className="pop-up-background">
         <div className="popup-container">
-          <h3>I love you princess</h3>
+          <h3>Paulina</h3>
                   <p>
-                    With every sunrise, my love for you grows,<br />
-                    Like the gentle morning dew, it softly flows.<br />
-                    You fill my days with joy, my nights with peace,<br />
-                    I thank the stars above, for this love's release. <br />
-                    Without you, my life was just a lonely tune, <br />
-                    But now it's a beautiful melody, all because of you, my moon.<br />
+                  Our friendship will be strong, that's a fact<br />
+                  We're bonded by laughter, no turning back<br />
+                  You make me smile, even when I frown,<br />
+                  Together we'll conquer this crazy town. <br />
 
           </p>
                   <p>...Daniel</p>
                   <div>
-                    <h6>This song expresses my emotions; please listen to it.</h6>
+                    <h6>I hope you like this song, please listen to it.</h6>
                     <AudioPlayer />
                   </div>
                   
